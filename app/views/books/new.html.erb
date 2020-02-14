@@ -1,0 +1,8 @@
+enter new book
+<hr>
+<% form_for @book do |f| -%>
+ title of book : <%= f.string_field :title%>
+ auther name : <%= f.string_field :author%>
+ description : <%= f.text_field :description%>
+ <%= f.submit %>
+<% end -%>
