@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :ops
   #get 'welcome/homepage'
   
   root 'welcome#homepage'
